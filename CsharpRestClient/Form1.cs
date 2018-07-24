@@ -59,7 +59,9 @@ namespace CsharpRestClient
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.Size = new Size(650, 400);
             string strResponse = String.Empty;
+            txtResponse.Text = String.Empty;
         }
     }
 }
